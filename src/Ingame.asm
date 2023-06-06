@@ -1,0 +1,1 @@
+ReplaceAsset($1216CC0, "fs/Data/Misc/ingame/HUDa4GCN.tga", 262188)
