@@ -6,9 +6,16 @@ origin $000000; insert "../input/Taxi 3 [F].iso" // Include French Taxi 3 ISO
 
 macro Text(OFFSET, TEXT) {
   map 0, 0, 256 // Map Default ASCII Chars
+  map '|', 0x00 // End of string 
 
   origin {OFFSET}
+  
+  //while (read({OFFSET} + str.len(TEXT)) != 0x00) {
+  //  {TEXT} += 0x00
+  //}
+
   db {TEXT} // ASCII Text To Print
+
 }
 
 macro TextShiftJIS(OFFSET, TEXT) {
