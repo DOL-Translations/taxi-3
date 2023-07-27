@@ -1,6 +1,6 @@
-Text($0018A58C, "             Loading.. Please wait")
-Text($0018F9A0, "             Loading.. Please wait")
-Text($00191980, "             Loading.. Please wait")
+Text($0018A58C, "                    Loading.. Please wait")
+Text($0018F9A0, "                    Loading.. Please wait")
+Text($00191980, "                    Loading.. Please wait")
 Text($0018FB08, "Game over|")
 
 //SYSTEM TEXT

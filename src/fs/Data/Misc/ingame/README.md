@@ -9,6 +9,6 @@
     - Objective Failed
     - Car Retired
     - Time Expired
-    - Time Limit Record
-    - Wrong Way
-    - Congradulations
+    - Time Left Record
+    - Wrong Way!!!
+    - Well Done!
