@@ -16,15 +16,12 @@ Qiu is captured by the Santa Claus Gang and is taken to the Alps, where she is r
 
 (Source: original & Wikipedia)
 
-
-
-## Compiling
-- Drop the required language iso (non-nkit compressed) into the `input` folder
+## Patching
+#### xdelta patch (Recommended)
+- Download [Delta Patcher](https://www.romhacking.net/utilities/704/)
+- Grab the [latest release](https://github.com/DOL-Translations/taxi-3/releases/latest/)
+- Open Delta Patcher and add the translation xdelta patch and the required language iso.
+#### manual patch (Latest changes, Windows only)
+- Drop the required language iso (non-nkit compressed) into the `input` folder.
     - Make sure it is named properly! Refer to the header of the readme for more info.
-#### Windows
-- Run `compile.bat` in the `tools` folder
-
-or  
-
-- Open the project folder in Visual Studio Code
-- `Ctrl + Shift + B` to compile
+- Run `compile.bat` in the `tools` folder.
